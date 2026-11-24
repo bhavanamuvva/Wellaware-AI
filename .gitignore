@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & Streamlit secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Streamlit runtime cache
+.streamlit/.cache/
+
+# Generated campaign outputs (keep folder via .gitkeep)
+generated_images/*.png
+!generated_images/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# Zip Archives
+*.zip

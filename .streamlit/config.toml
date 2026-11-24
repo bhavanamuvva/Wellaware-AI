@@ -1,0 +1,14 @@
+# Streamlit theme – white background with a teal / light-blue healthcare palette
+[theme]
+base = "light"
+primaryColor = "#0F9D9A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2FAFB"
+textColor = "#1F3B4D"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
